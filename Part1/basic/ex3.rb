@@ -1,7 +1,11 @@
-config = { "movie a" => 1975, "movie b" => 2004, "movie c" => 2013, "movie d" => 2001, "movie e" => 1981 }
+movies = { mv1: 1975,
+           mv2: 2004,
+           mv3: 2013,
+           mv4: 2001,
+           mv5: 1981 }
 
-puts config["movie a"]
-puts config["movie b"]
-puts config["movie c"]
-puts config["movie d"]
-puts config["movie e"]
+puts movies[:mv1]
+puts movies[:mv2]
+puts movies[:mv3]
+puts movies[:mv4]
+puts movies[:mv5]
