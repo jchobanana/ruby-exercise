@@ -11,4 +11,3 @@ a = gets.chomp.to_i
     puts "#{a} is greater than 100"
   end
 
-  puts a == 5
